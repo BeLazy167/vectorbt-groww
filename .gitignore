@@ -1,0 +1,29 @@
+# Credentials and local tooling
+.env
+.env.*
+!.env.example
+.claude/
+.cursor/
+.serena/
+.DS_Store
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Personal reports, cached data, and generated outputs
+*.xlsx
+*.xls
+*.csv
+*.pkl
+*.joblib
+*.db
+*.db-*
+*.sqlite*
+*.log
+*.png
+*.html

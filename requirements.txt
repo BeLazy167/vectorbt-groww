@@ -1,0 +1,12 @@
+vectorbt
+growwapi
+pandas
+numpy
+click
+websocket-client
+pyotp
+scikit-learn
+scipy
+joblib
+python-dotenv
+matplotlib
