@@ -11,7 +11,7 @@ Python research prototype for Indian-stock strategy backtesting with Groww marke
 
 ## Status
 
-This project is unfinished. The options backtest fetches current option quotes while iterating historical dates, so it does not provide a valid historical simulation. The stock live command also uses symbol placeholders for exchange tokens. These paths need work before use. Dependencies are not pinned, and end-to-end operation has not been verified for this initial upload.
+This project is unfinished. The options backtest fetches current option quotes while iterating historical dates, so it does not provide a valid historical simulation. The stock live command also uses symbol placeholders for exchange tokens. These paths need work before use. Dependencies are not pinned. The CLI help command has been checked, but backtests and trading execution have not been validated end to end.
 
 ## Setup
 
@@ -37,3 +37,7 @@ See [OPTIONS.md](OPTIONS.md) for the options implementation notes. The limitatio
 ## Local files
 
 Credentials, personal financial reports, generated charts, data caches, and Python environments are excluded from Git.
+
+## License
+
+The source code in this repository is available under the [MIT license](LICENSE). Dependencies retain their own licenses.
